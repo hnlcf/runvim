@@ -1,35 +1,36 @@
 local M = {}
 
 M.all_servers = {
-  "jsonls",
-  "sumneko_lua",
+  "angularls",
   "clangd",
   "cmake",
-  "prosemd_lsp",
   "cssls",
+  "eslint",
+  "jedi_language_server",
+  "jsonls",
+  "marksman",
+  "prosemd_lsp",
   "pyright",
   "rust_analyzer",
-  "jedi_language_server",
-  "vuels",
-  "tsserver",
-  "texlab",
-  "angularls",
-  "eslint",
+  "sumneko_lua",
   "taplo",
+  "texlab",
+  "tsserver",
+  "vuels",
   "zk"
 }
 
 M.regular_servers = {
-  "cmake",
-  "prosemd_lsp",
-  "cssls",
-  "jedi_language_server",
-  "vuels",
-  "tsserver",
-  "texlab",
   "angularls",
+  "cmake",
+  "cssls",
   "eslint",
-  "taplo"
+  "jedi_language_server",
+  "prosemd_lsp",
+  "taplo",
+  "texlab",
+  "tsserver",
+  "vuels",
 }
 
 return M
